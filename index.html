@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HRK // Future Systems Lab — a self-taught builder creating technology-driven systems for people, culture, and the future." />
+  <meta name="author" content="Hrk" />
+  <meta property="og:title" content="HRK // Future Systems Lab" />
+  <meta property="og:description" content="Building myself. Building systems. Building the future." />
+  <meta property="og:type" content="website" />
+  <title>HRK // Future Systems Lab</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Hanken+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0a0a'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='52' font-weight='700' fill='%23c9a227' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- grain + grid atmosphere -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient-grid" aria-hidden="true"></div>
+
+  <!-- ===== NOTCH NAVBAR ===== -->
+  <header class="nav-wrap" id="top">
+    <nav class="notch-nav" aria-label="Primary">
+      <a href="#top" class="nav-brand" data-flip>
+        <span class="nav-mark">H</span>
+        <span class="nav-name">HRK<small>// FSL</small></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#philosophy" data-flip>Philosophy</a></li>
+        <li><a href="#building" data-flip>Building</a></li>
+        <li><a href="#systems" data-flip>Systems</a></li>
+        <li><a href="#knowledge" data-flip>Knowledge</a></li>
+        <li><a href="#journey" data-flip>Journey</a></li>
+        <li><a href="#vision" data-flip>Vision</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" data-flip>
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        </button>
+        <a href="#contact" class="nav-cta" data-flip>Build With Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <canvas class="flow-field" id="flowField" aria-hidden="true"></canvas>
+
+      <div class="hero-core" aria-hidden="true">
+        <div class="core-stage">
+          <div class="core-3d">
+            <div class="face f1"></div>
+            <div class="face f2"></div>
+            <div class="face f3"></div>
+            <div class="face f4"></div>
+            <div class="face f5"></div>
+            <div class="face f6"></div>
+          </div>
+          <div class="core-ring r1"></div>
+          <div class="core-ring r2"></div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal stagger"><span class="bracket">[</span> SYS // 01 — IDENTITY <span class="bracket">]</span></p>
+        <h1 class="hero-title">
+          <span class="line reveal stagger">I'm <em>Hrk</em>,</span>
+          <span class="line reveal stagger">a self-taught builder</span>
+          <span class="line reveal stagger">creating <span class="rotating-wrap"> <span class="rotating" id="rotating">technology-driven systems</span><span class="caret" aria-hidden="true"></span></span></span>
+          <span class="line reveal stagger">for people, culture &amp; the future.</span>
+        </h1>
+
+        <p class="hero-sub reveal stagger">
+          I explore technology, artificial intelligence and human problems to turn ambitious ideas into useful digital products.
+        </p>
+
+        <div class="hero-cta reveal stagger">
+          <a href="#contact" class="btn btn-primary" data-flip>
+            <span>Build With Me</span>
+            <svg viewBox="0 0 24 24" class="arrow"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </a>
+          <a href="#systems" class="btn btn-ghost" data-flip>
+            <span>Explore My Work</span>
+          </a>
+        </div>
+
+        <div class="hero-meta reveal stagger">
+          <div class="meta-item"><span class="meta-k">STATUS</span><span class="meta-v"><i class="dot"></i>Building in public</span></div>
+          <div class="meta-item"><span class="meta-k">BASE</span><span class="meta-v">Assam, IN</span></div>
+          <div class="meta-item"><span class="meta-k">FOCUS</span><span class="meta-v">AI · Systems · Products</span></div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span class="cue-text">SCROLL</span>
+        <span class="cue-line"></span>
+      </div>
+    </section>
+
+    <!-- ===== OPERATING PHILOSOPHY ===== -->
+    <section class="section philosophy" id="philosophy">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="bracket">[</span> SYS // 02 — OPERATING PHILOSOPHY <span class="bracket">]</span></p>
+        <h2 class="section-title reveal">How I operate.</h2>
+        <p class="section-lead reveal">Five modes I move between. Not titles — conditions of work.</p>
+      </div>
+
+      <div class="staggered-grid">
+        <article class="cell cell-a reveal" style="--d:0ms">
+          <span class="cell-no">01</span>
+          <h3>Visionary</h3>
+          <p>I hold long horizons. I see where a thing is going before it arrives, and build toward that future instead of the present defaults.</p>
+        </article>
+        <article class="cell cell-b reveal" style="--d:80ms">
+          <span class="cell-no">02</span>
+          <h3>Learner</h3>
+          <p>Self-taught by necessity and curiosity. I treat not-knowing as fuel, not embarrassment — and close the gap fast.</p>
+        </article>
+        <article class="cell cell-c reveal" style="--d:160ms">
+          <span class="cell-no">03</span>
+          <h3>Builder</h3>
+          <p>Thinking ends in a thing. A product, a system, a prototype you can run. Output is the point.</p>
+        </article>
+        <article class="cell cell-d reveal" style="--d:240ms">
+          <span class="cell-no">04</span>
+          <h3>Problem solver</h3>
+          <p>I reframe before I solve. The right problem, framed clearly, is half-solved. I chase root causes, not symptoms.</p>
+        </article>
+        <article class="cell cell-e reveal" style="--d:320ms">
+          <span class="cell-no">05</span>
+          <h3>Fast adapter</h3>
+          <p>New tool, new stack, new domain — I get useful in days. In a field that reinvents itself monthly, this is the real skill.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CURRENTLY BUILDING ===== -->
+    <section class="section building" id="building">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="bracket">[</span> SYS // 03 — CURRENTLY BUILDING <span class="bracket">]</span></p>
+        <h2 class="section-title reveal">Live on the bench.</h2>
+        <p class="section-lead reveal">What's open in the lab right now.</p>
+      </div>
+
+      <div class="bench">
+        <article class="bench-card primary reveal">
+          <div class="bench-top">
+            <span class="tag tag-live"><i class="dot"></i> ACTIVE</span>
+            <span class="bench-no">// 01</span>
+          </div>
+          <h3>zG Era</h3>
+          <p>An evolving product platform experiment. Building toward an AI-augmented system that compounds — exploring agents, retrieval and product surface area.</p>
+          <div class="bench-stack">
+            <span>AI Agents</span><span>RAG</span><span>Product</span><span>Prototyping</span>
+          </div>
+          <div class="bench-foot">
+            <span class="bench-status">Status: <strong>in development</strong></span>
+            <a href="#systems" class="bench-link" data-flip>view system →</a>
+          </div>
+        </article>
+
+        <article class="bench-card reveal" style="--d:100ms">
+          <div class="bench-top">
+            <span class="tag tag-research"><i class="dot"></i> RESEARCH</span>
+            <span class="bench-no">// 02</span>
+          </div>
+          <h3>AI Agents &amp; RAG</h3>
+          <p>Hands-on experiments with agent loops, tool use, retrieval pipelines and evals. Learning what breaks at the edges.</p>
+          <div class="bench-stack">
+            <span>LLMs</span><span>Retrieval</span><span>Evals</span>
+          </div>
+        </article>
+
+        <article class="bench-card reveal" style="--d:200ms">
+          <div class="bench-top">
+            <span class="tag tag-learn"><i class="dot"></i> LEARNING</span>
+            <span class="bench-no">// 03</span>
+          </div>
+          <h3>Full-stack depth</h3>
+          <p>Leveling up product engineering, deployment and cloud architecture — turning prototypes into things people can actually use.</p>
+          <div class="bench-stack">
+            <span>Backend</span><span>Cloud</span><span>DevOps</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== SELECTED SYSTEMS ===== -->
+    <section class="section systems" id="systems">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="bracket">[</span> SYS // 04 — SELECTED SYSTEMS <span class="bracket">]</span></p>
+        <h2 class="section-title reveal">Selected systems.</h2>
+        <p class="section-lead reveal">Things I've built, shipped, or are still becoming.</p>
+      </div>
+
+      <div class="systems-grid">
+        <article class="system-card reveal" style="--d:0ms">
+          <div class="sys-visual" data-visual="zg"></div>
+          <div class="sys-body">
+            <div class="sys-tags"><span>Product</span><span>AI</span><span>Ongoing</span></div>
+            <h3>zG Era</h3>
+            <p>zG Era is a human-potential platform that unites people to learn, create, collaborate, preserve culture, and build real-world impact.</p>
+            <div class="sys-meta">
+              <span class="sys-status"><i class="dot"></i> in development</span>
+              <span class="sys-role">Role: Builder / Founder</span>
+            </div>
+            <div class="sys-links">
+              <a href="https://zg-era-2d597.web.app/" class="sys-link" data-flip>Live <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="#" class="sys-link" data-flip>GitHub <svg viewBox="0 0 24 24"><path d="M9 7h8v8"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="system-card reveal" style="--d:100ms">
+          <div class="sys-visual" data-visual="sambidhan"></div>
+          <div class="sys-body">
+            <div class="sys-tags"><span>Civic</span><span>Web</span></div>
+            <h3>Sambidhan</h3>
+            <p><!-- TODO: what Sambidhan is + problem it solves -->A system built around access to constitutional / civic information. <em class="placeholder">[ awaiting your brief — what it is, the problem, status, tech, links ]</em></p>
+            <div class="sys-meta">
+              <span class="sys-status"><i class="dot"></i> status: Live</span>
+              <span class="sys-role">Role: Live</span>
+            </div>
+            <div class="sys-links">
+              <a href="https://samvidhan-one.vercel.app/en" class="sys-link" data-flip>Live <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="#" class="sys-link" data-flip>GitHub <svg viewBox="0 0 24 24"><path d="M9 7h8v8"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="system-card reveal" style="--d:200ms">
+          <div class="sys-visual" data-visual="room"></div>
+          <div class="sys-body">
+            <div class="sys-tags"><span>Dashboard</span><span>Ops</span><span>Full-stack</span></div>
+            <h3>Room Operation Dashboard</h3>
+            <p>An operations dashboard for managing rooms/resources — scheduling, status and real-time operational visibility in one surface.</p>
+            <div class="sys-meta">
+              <span class="sys-status"><i class="dot"></i> shippable</span>
+              <span class="sys-role">Role: Builder</span>
+            </div>
+            <div class="sys-links">
+              <a href="https://room-status-dashboard.web.app/" class="sys-link" data-flip>Live <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://github.com/Hirak21/RoomOperationDashboard" class="sys-link" data-flip>GitHub <svg viewBox="0 0 24 24"><path d="M9 7h8v8"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="system-card reveal" style="--d:300ms">
+          <div class="sys-visual" data-visual="video"></div>
+          <div class="sys-body">
+            <div class="sys-tags"><span>Creative</span><span>Video</span></div>
+            <h3>Video / Creative Work</h3>
+            <p><!-- TODO: video title, why, your role, tools, link -->Selected creative video experiments. <em class="placeholder">[ awaiting your brief — title, your role (edit/script/dir/fx), tools, link, project or experiment? ]</em></p>
+            <div class="sys-meta">
+              <span class="sys-status"><i class="dot"></i> creative experiment</span>
+              <span class="sys-role">Role: TBD</span>
+            </div>
+            <div class="sys-links">
+              <a href="https://youtu.be/o2KzTn0o4ns?si=cdpX_eDdxLmGyGXy" class="sys-link" data-flip>Watch <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== KNOWLEDGE MAP ===== -->
+    <section class="section knowledge" id="knowledge">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="bracket">[</span> SYS // 05 — KNOWLEDGE MAP <span class="bracket">]</span></p>
+        <h2 class="section-title reveal">What I can do. What I'm becoming.</h2>
+        <p class="section-lead reveal">Honest tiers. Working, developing, exploring, future — in that order of confidence.</p>
+      </div>
+
+      <div class="tier-grid">
+        <div class="tier tier-working reveal" style="--d:0ms">
+          <div class="tier-head">
+            <span class="tier-no">01</span>
+            <h3>Working</h3>
+            <span class="tier-note">I deliver with these today.</span>
+          </div>
+          <ul class="skill-list">
+            <li>AI-assisted product development</li>
+            <li>Rapid research &amp; prototyping</li>
+            <li>Creative problem framing</li>
+            <li>Prompt &amp; workflow design</li>
+            <li>Digital product ideation</li>
+          </ul>
+        </div>
+
+        <div class="tier tier-developing reveal" style="--d:100ms">
+          <div class="tier-head">
+            <span class="tier-no">02</span>
+            <h3>Developing</h3>
+            <span class="tier-note">Getting production-confident.</span>
+          </div>
+          <ul class="skill-list">
+            <li>Full-stack development</li>
+            <li>Product engineering</li>
+            <li>Structured problem-solving</li>
+            <li>UI/UX implementation</li>
+            <li>Deployment &amp; cloud architecture</li>
+          </ul>
+        </div>
+
+        <div class="tier tier-exploring reveal" style="--d:200ms">
+          <div class="tier-head">
+            <span class="tier-no">03</span>
+            <h3>Exploring</h3>
+            <span class="tier-note">Hands-on, early signals.</span>
+          </div>
+          <ul class="skill-list">
+            <li>AI agents</li>
+            <li>Retrieval-augmented generation</li>
+            <li>Automation systems</li>
+            <li>Emerging developer tools</li>
+          </ul>
+        </div>
+
+        <div class="tier tier-future reveal" style="--d:300ms">
+          <div class="tier-head">
+            <span class="tier-no">04</span>
+            <h3>Future</h3>
+            <span class="tier-note">Where I'm headed next.</span>
+          </div>
+          <ul class="skill-list">
+            <li>Data science</li>
+            <li>Machine learning foundations</li>
+            <li>Quantum computing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== JOURNEY TIMELINE ===== -->
+    <section class="section journey" id="journey">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="bracket">[</span> SYS // 06 — JOURNEY <span class="bracket">]</span></p>
+        <h2 class="section-title reveal">The path so far.</h2>
+        <p class="section-lead reveal">Not a résumé — a trajectory. Five phases of becoming a builder.</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="tl-item reveal" style="--d:0ms">
+          <span class="tl-node"></span>
+          <div class="tl-card">
+            <span class="tl-phase">PHASE 01</span>
+            <h3>Learning</h3>
+            <p>Self-taught foundations. Curiosity-driven, project-led — learning by building things that broke and fixing them.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal" style="--d:80ms">
+          <span class="tl-node"></span>
+          <div class="tl-card">
+            <span class="tl-phase">PHASE 02</span>
+            <h3>Employment &amp; real-world ops</h3>
+            <p>Operating in real environments — shipping, maintaining, and feeling the weight of systems people depend on.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal" style="--d:160ms">
+          <span class="tl-node"></span>
+          <div class="tl-card">
+            <span class="tl-phase">PHASE 03</span>
+            <h3>Client work</h3>
+            <p>Turning other people's problems into working digital things. Constraints, deadlines, real users.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal" style="--d:240ms">
+          <span class="tl-node"></span>
+          <div class="tl-card">
+            <span class="tl-phase">PHASE 04</span>
+            <h3>Product building</h3>
+            <p>Shifting from one-off builds to products that compound. zG Era and the systems-thinking era begins.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal" style="--d:320ms">
+          <span class="tl-node"></span>
+          <div class="tl-card">
+            <span class="tl-phase">PHASE 05 — NOW</span>
+            <h3>Entrepreneurship</h3>
+            <p>Building in public, building for the future. AI, agents and technology-driven systems for people and culture.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== VISION ===== -->
+    <section class="section vision" id="vision">
+      <div class="vision-grid-bg" aria-hidden="true"></div>
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="bracket">[</span> SYS // 07 — VISION <span class="bracket">]</span></p>
+        <h2 class="section-title reveal">Where this is going.</h2>
+      </div>
+
+      <div class="vision-body">
+        <p class="vision-statement reveal">
+          I'm building toward a future where <em>technology serves people and culture</em> — not the other way around. Where ambitious ideas become useful systems, and where being self-taught is an advantage, not a limit.
+        </p>
+
+        <div class="vision-cols">
+          <div class="vcol reveal" style="--d:0ms">
+            <span class="vcol-k">PROBLEMS I WANT TO SOLVE</span>
+            <ul>
+              <li>Making AI genuinely useful beyond chat</li>
+              <li>Access to knowledge for people left out</li>
+              <li>Tools that amplify culture, not erase it</li>
+            </ul>
+          </div>
+          <div class="vcol reveal" style="--d:100ms">
+            <span class="vcol-k">FIELDS I'M ENTERING</span>
+            <ul>
+              <li>AI agents &amp; autonomous systems</li>
+              <li>Retrieval &amp; knowledge systems</li>
+              <li>Data science &amp; ML foundations</li>
+            </ul>
+          </div>
+          <div class="vcol reveal" style="--d:200ms">
+            <span class="vcol-k">WHERE I'M GOING</span>
+            <ul>
+              <li>From builder → systems founder</li>
+              <li>From prototypes → products at scale</li>
+              <li>From Assam → the future, on my terms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="bracket">[</span> SYS // 08 — CONTACT <span class="bracket">]</span></p>
+        <h2 class="section-title reveal">Build with me.</h2>
+        <p class="section-lead reveal">Have a problem worth solving, or a future worth building? Let's talk.</p>
+      </div>
+
+      <div class="contact-cta reveal">
+        <a href="mailto:hello@example.com" class="big-cta" data-flip>
+          <span class="big-cta-label">Discuss a project</span>
+          <span class="big-cta-arrow">→</span>
+        </a>
+      </div>
+
+      <div class="social-flip-row">
+        <a href="https://github.com/Hirak21" class="social-flip" data-flip target="_blank" rel="noopener">
+          <div class="flip-inner">
+            <span class="flip-front">GitHub</span>
+            <span class="flip-back">/Hirak21 ↗</span>
+          </div>
+        </a>
+        <a href="#" class="social-flip" data-flip target="_blank" rel="noopener">
+          <div class="flip-inner">
+            <span class="flip-front">X</span>
+            <span class="flip-back">Hrkjn_x ↗</span>
+          </div>
+        </a>
+        <a href="mailto:hello@example.com" class="social-flip" data-flip>
+          <div class="flip-inner">
+            <span class="flip-front">Email</span>
+            <span class="flip-back">hrkjyotin@gmail.com ↗</span>
+          </div>
+        </a>
+        <a href="#" class="social-flip" data-flip target="_blank" rel="noopener">
+          <div class="flip-inner">
+            <span class="flip-front">WhatsApp</span>
+            <span class="flip-back">+918822018071 ↗</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="stacked-logos reveal" aria-label="Built with">
+        <span class="logos-label">// BUILT WITH</span>
+        <div class="logos-track">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>AI-assisted</span><span>Coffee</span>
+          <span aria-hidden="true">HTML</span><span aria-hidden="true">CSS</span><span aria-hidden="true">JavaScript</span><span aria-hidden="true">AI-assisted</span><span aria-hidden="true">Coffee</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <span class="nav-mark">H</span>
+        <span>HRK <small>// Future Systems Lab</small></span>
+      </div>
+      <p class="foot-meta">Building myself. Building systems. Building the future.</p>
+      <p class="foot-copy">© <span id="year"></span> Hrk — self-taught, self-built.</p>
+    </div>
+    <a href="#top" class="to-top" data-flip>↑ back to top</a>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
