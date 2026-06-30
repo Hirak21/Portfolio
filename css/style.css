@@ -521,6 +521,8 @@ em { font-style: italic; }
    ========================================================= */
 @media (max-width: 960px) {
   .nav-links { display: none; }
+  .notch-nav { padding: 0 .5rem 0 .7rem; gap: .6rem; }
+  .nav-cta { font-size: .72rem; padding: .5rem .8rem; }
   .staggered-grid { grid-template-columns: repeat(2, 1fr); }
   .cell-a, .cell-b { grid-column: span 2; }
   .cell-c, .cell-d, .cell-e { grid-column: span 1; }
@@ -530,15 +532,53 @@ em { font-style: italic; }
   .vision-cols { grid-template-columns: 1fr; }
   .hero-core { opacity: .4; right: -8rem; }
   .footer { flex-direction: column; text-align: center; }
+  .hero { padding-bottom: 3rem; }
+  .hero-sub { margin-bottom: 1.6rem; }
+  .hero-cta { margin-bottom: 2rem; }
+  .section { padding-block: clamp(3rem, 8vh, 5rem); }
+  .section-head { margin-bottom: clamp(1.8rem, 4vw, 3rem); }
+  .cell { padding: 1.4rem 1.3rem 1.6rem; }
+  .bench-card { padding: 1.4rem 1.3rem; }
+  .sys-body { padding: 1.2rem 1.3rem 1.4rem; }
+  .tier { padding: 1.4rem 1.2rem; }
+  .tl-card { padding: 1.1rem 1.3rem; }
+  .social-flip { min-width: 130px; height: 46px; }
+  .big-cta { padding: clamp(1.2rem, 3vw, 2rem) clamp(1.2rem, 3vw, 2rem); }
 }
 @media (max-width: 600px) {
   .staggered-grid { grid-template-columns: 1fr; }
   .cell-a, .cell-b, .cell-c, .cell-d, .cell-e { grid-column: span 1; }
   .tier-grid { grid-template-columns: 1fr; }
-  .hero-meta { gap: 1.3rem; }
+  .hero-meta { gap: 1rem; }
   .nav-name small { display: none; }
   .scroll-cue { display: none; }
   .hero-core { display: none; }
+  .hero { min-height: auto; padding-top: calc(var(--nav-h) + 30px); padding-bottom: 2.5rem; }
+  .hero-title { margin-bottom: 1rem; }
+  .hero-sub { font-size: 1rem; margin-bottom: 1.2rem; }
+  .hero-cta { flex-direction: column; gap: .7rem; }
+  .hero-cta .btn { width: 100%; justify-content: center; }
+  .hero-meta { gap: .8rem; }
+  .section { padding-block: clamp(2.5rem, 6vh, 4rem); }
+  .section-head { margin-bottom: clamp(1.4rem, 3vw, 2rem); }
+  .cell { padding: 1.2rem 1.1rem 1.3rem; }
+  .cell h3 { font-size: 1.3rem; }
+  .bench-card { padding: 1.2rem 1.1rem; }
+  .bench-card h3 { font-size: 1.3rem; }
+  .sys-visual { height: 140px; }
+  .sys-body { padding: 1rem 1.1rem 1.2rem; }
+  .sys-body h3 { font-size: 1.4rem; }
+  .tier { padding: 1.2rem 1rem; }
+  .tier-head h3 { font-size: 1.2rem; }
+  .tl-card { padding: 1rem 1.1rem; }
+  .tl-card h3 { font-size: 1.15rem; }
+  .big-cta { flex-direction: column; text-align: center; gap: .6rem; }
+  .social-flip { min-width: 0; flex: 1; min-width: calc(50% - .4rem); height: 44px; }
+  .social-flip-row { gap: .5rem; }
+  .logos-track { gap: 1.5rem; }
+  .logos-track span { font-size: 1.1rem; }
+  .footer { padding: 2rem var(--gutter); }
+  .vision-statement { margin-bottom: 2.5rem; }
 }
 
 /* reduced motion */

@@ -209,6 +209,11 @@
     a.addEventListener("click", (e) => {
       const id = a.getAttribute("href");
       if (id === "#") return;
+      if (id === "#top") {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
       const target = document.querySelector(id);
       if (target) {
         e.preventDefault();
