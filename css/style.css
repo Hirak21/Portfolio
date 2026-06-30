@@ -193,7 +193,8 @@ em { font-style: italic; }
 
 .nav-cta {
   font-family: var(--f-mono); font-size: .8rem; letter-spacing: .06em; text-transform: uppercase;
-  padding: .6rem 1rem; border-radius: 999px;
+  line-height: 1; display: inline-flex; align-items: center; justify-content: center;
+  padding: .65rem 1rem; border-radius: 999px;
   background: var(--ink); color: var(--bg);
   transition: transform .25s var(--ease), background .25s var(--ease);
 }
@@ -521,8 +522,8 @@ em { font-style: italic; }
    ========================================================= */
 @media (max-width: 960px) {
   .nav-links { display: none; }
-  .notch-nav { padding: 0 .5rem 0 .7rem; gap: .6rem; }
-  .nav-cta { font-size: .72rem; padding: .5rem .8rem; }
+  .notch-nav { padding: 0 .5rem 0 .7rem; gap: .5rem; }
+  .nav-cta { font-size: .72rem; padding: .45rem .75rem; }
   .staggered-grid { grid-template-columns: repeat(2, 1fr); }
   .cell-a, .cell-b { grid-column: span 2; }
   .cell-c, .cell-d, .cell-e { grid-column: span 1; }
