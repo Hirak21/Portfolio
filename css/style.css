@@ -523,7 +523,6 @@ em { font-style: italic; }
 @media (max-width: 960px) {
   .nav-links { display: none; }
   .notch-nav { padding: 0 .5rem 0 .7rem; gap: .5rem; }
-  .nav-cta { font-size: .72rem; padding: .45rem .75rem; }
   .staggered-grid { grid-template-columns: repeat(2, 1fr); }
   .cell-a, .cell-b { grid-column: span 2; }
   .cell-c, .cell-d, .cell-e { grid-column: span 1; }
